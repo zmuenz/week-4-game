@@ -1,4 +1,40 @@
 .crystal-image {
-    width: 300px;
-    height: 300px;
-  }
+    width: 150px;
+    height: 162px;
+    margin: 0 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #4aaaa5;
+}
+
+body {
+  background-image: url('../images/topography.png');
+	background-repeat: repeat;
+}
+
+.main-content {
+  background-color: #fff;
+  border: solid;
+  border-color: #4aaaa5;
+  border-width: 2px;
+  padding: 10px 30px;
+  margin: 20px auto;
+}
+
+.crystal-choices {
+  text-align: center;
+  padding: 25px 0;
+}
+
+.center-score {
+  text-align: center;
+}
+
+.score-box {
+  padding: 20px 0;
+  border: solid;
+  border-color: #4aaaa5;
+  border-width: 2px;
+}
