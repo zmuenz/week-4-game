@@ -6,6 +6,8 @@ var counter = 0;
 var wins = 0;
 var losses = 0;
 
+$("#user-score").text(counter);
+
 var arrayImg = new Array();
 arrayImg[0] = "../images/blue-crystal.png";
 arrayImg[1] = "../images/green-crystal.png";
@@ -19,6 +21,7 @@ var reset = function () {
     crystalGeneration();
     targetNumber = (Math.floor(Math.random() * 120) + 19);
     $("#number-to-guess").text(targetNumber);
+    $("#user-score").text(counter);
 }
 
 // Next we create a for loop to create crystals
